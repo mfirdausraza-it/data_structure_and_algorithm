@@ -1,5 +1,11 @@
 package com.codecafe.aditya_verma.binary_search;
 
+/**
+ * Given an array arr[] sorted in decreasing order, and an integer X,
+ * the task is to check if X is present in the given array or not.
+ * If X is present in the array, print its index ( 0-based indexing).
+ * Otherwise, print -1.
+ */
 public class SearchOnReverseSortedArray {
 
     public static void main(String[] args) {

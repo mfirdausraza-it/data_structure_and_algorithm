@@ -7,6 +7,8 @@ public class CountOfElementInSortedArray {
     //approach 2 : I will the write same code for first occurrence, and suppose I get index as first
     // same way i write it for the last occurrence, and will get index as second
     // final count will be second - first +1;
+
+    // https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1
     static int countOfElementInSortedArray(int[] arr, int target){
         int n = arr.length;
         if(n == 1){

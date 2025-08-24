@@ -2,6 +2,15 @@ package com.codecafe.aditya_verma.binary_search;
 
 import java.util.Arrays;
 
+//https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+
+/**
+ * Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.
+ *
+ * If target is not found in the array, return [-1, -1].
+ *
+ * You must write an algorithm with O(log n) runtime complexity.
+ */
 public class FirstAndLastOccurrenceOfGivenNumber {
 
     public static void main(String[] args) {
@@ -49,8 +58,8 @@ public class FirstAndLastOccurrenceOfGivenNumber {
             if(arr[mid] == target) {
                 //even if we found the target will not stop the searching,
                 ans = mid;
-                // are we searching for first and last occurrence,
-                // based on that we will shift the left and right accordingly
+                // we are searching for first and last occurrence,
+                // based on that we will shift the start and end accordingly
                 if (isFirst) end = mid - 1;
                 else start = mid + 1;
             }else if(arr[mid] > target) end = mid-1;
