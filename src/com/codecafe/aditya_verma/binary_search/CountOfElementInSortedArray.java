@@ -1,6 +1,10 @@
 package com.codecafe.aditya_verma.binary_search;
 
+
 public class CountOfElementInSortedArray {
+
+    //Problems : Find the count of given Number in a Sorted Array
+
     //approach 1 : first I will find the first occurrence of target
     // and will use a while loop from there
 
