@@ -47,7 +47,7 @@ public class SearchInBitonicArray {
 
     public static void main(String[] args) {
         int[] arr = {2, 6, 9, 15, 20, 14, 10, 5, 1};
-        int target = 10;
+//        int target = 10;
         System.out.println(searchInABitonicArray(arr,1));
     }
 }

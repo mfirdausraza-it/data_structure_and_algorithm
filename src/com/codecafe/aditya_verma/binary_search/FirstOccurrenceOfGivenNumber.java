@@ -1,7 +1,5 @@
 package com.codecafe.aditya_verma.binary_search;
 
-import java.util.Arrays;
-
 public class FirstOccurrenceOfGivenNumber {
     public static void main(String[] args) {
         int[] arr = {1,2,4,5,5,5,5,5,7,10,11,11,11,11,12};
