@@ -27,8 +27,8 @@ public class LongestSubArrayWithGivenSumK {
 	
 	public static void main(String[] args) {
 		int[] nums = {1, 2, 3, 1, 1, 1, 1};
-//		System.out.println(lenOfLongSubarr_PrefixSum(nums,nums.length,3));
-//		System.out.println(lenOfLongSubarr_SlidingWindow(nums,nums.length,3));
+		System.out.println(lenOfLongSubarr_PrefixSum(nums,nums.length,3));
+		System.out.println(lenOfLongSubarr_SlidingWindow(nums,nums.length,3));
 		System.out.println(minSubArrayLen_PrefixSum(7, new int[] {2,3,1,2,4,3}));
 		System.out.println(minSubArrayLen_SlidingWindow(7, new int[] {2,3,1,2,4,3}));
 	}
