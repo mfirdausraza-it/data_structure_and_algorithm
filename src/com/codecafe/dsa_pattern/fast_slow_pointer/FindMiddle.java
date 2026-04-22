@@ -1,4 +1,4 @@
-package com.codecafe.dsa_pattern.fastslow_pointer;
+package com.codecafe.dsa_pattern.fast_slow_pointer;
 
 public class FindMiddle {
 

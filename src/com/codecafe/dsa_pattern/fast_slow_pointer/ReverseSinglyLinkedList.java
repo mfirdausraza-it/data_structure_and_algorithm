@@ -1,6 +1,4 @@
-package com.codecafe.dsa_pattern.fastslow_pointer;
-
-import org.w3c.dom.Node;
+package com.codecafe.dsa_pattern.fast_slow_pointer;
 
 import java.util.Stack;
 
