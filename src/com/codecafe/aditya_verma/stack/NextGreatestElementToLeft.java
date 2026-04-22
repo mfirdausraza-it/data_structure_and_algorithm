@@ -18,7 +18,6 @@ public class NextGreatestElementToLeft {
             while (!stack.isEmpty() && stack.peek() <= nums[i]) {
                 stack.pop();
             }
-
             result[i] = stack.isEmpty() ? -1 : stack.peek();
             stack.push(nums[i]);
         }
