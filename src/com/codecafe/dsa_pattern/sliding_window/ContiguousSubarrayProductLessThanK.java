@@ -1,4 +1,4 @@
-package com.codecafe.aditya_verma.binary_search;
+package com.codecafe.dsa_pattern.sliding_window;
 
 public class ContiguousSubarrayProductLessThanK {
 	

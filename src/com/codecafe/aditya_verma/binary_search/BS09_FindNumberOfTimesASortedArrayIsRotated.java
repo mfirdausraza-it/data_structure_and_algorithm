@@ -1,6 +1,6 @@
 package com.codecafe.aditya_verma.binary_search;
 
-public class FindNumberOfTimeASortedArrayIsRotated {
+public class BS09_FindNumberOfTimesASortedArrayIsRotated {
 
     //find the number of times an array is rotated
     // Approach 1 : if we are able to find the lowest number in
@@ -10,7 +10,7 @@ public class FindNumberOfTimeASortedArrayIsRotated {
     // [1,2,3,4,5,6,7] --> [5,6,7,1,2,3,4]  -- array is rotated 3 time from right
 
     static int getNumberOfTimesAnSortedArrayIsRotated(int[] nums){
-        return FindLowestElementInRotatedArray.findLowestElementInRotatedSortedArray(nums);
+        return BS11_FindLowestElementInRotatedArray.findLowestElementInRotatedSortedArray(nums);
     }
 
     public static void main(String[] args) {

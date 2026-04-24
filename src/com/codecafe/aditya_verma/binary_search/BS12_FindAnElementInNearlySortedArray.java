@@ -1,6 +1,6 @@
 package com.codecafe.aditya_verma.binary_search;
 
-public class FindAnElementInNearlySortedArray {
+public class BS12_FindAnElementInNearlySortedArray {
 
     // NEARLY SORTED ARRAY : an element suppose to be @ ith position,
     // could be at ith as well as i-1th or i+1th position

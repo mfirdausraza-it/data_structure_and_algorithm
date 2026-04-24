@@ -1,12 +1,12 @@
 package com.codecafe.aditya_verma.binary_search;
 
-public class FindANumberInRotatedSortedArray {
+public class BS10_FindAnElementInRotatedSortedArray {
 
     // Approach 1 : first we will find the lowest value so that I can
     // split the array into two part and can apply Binary search on both part;
     static int findANumberInRotatedSortedArray(int[] arr,int target){
         int n = arr.length;
-        int indexLowestValue = FindLowestElementInRotatedArray.findLowestElementInRotatedSortedArray(arr);
+        int indexLowestValue = BS11_FindLowestElementInRotatedArray.findLowestElementInRotatedSortedArray(arr);
         // array 1 = 0-> indexLowestValue-1, array 2 -> indexLowestValue -> n-1
         int first = binarySearch(arr,target,0,indexLowestValue-1);
         if(first!=-1) return first;

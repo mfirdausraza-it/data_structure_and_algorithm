@@ -4,7 +4,7 @@ package com.codecafe.aditya_verma.binary_search;
  * sorting order of array is not unknown
  * it could be ascending or descending
  */
-public class SearchOnUnknownSortedOrder {
+public class BS04_SearchOnUnknownSortedOrder {
 
     public static void main(String[] args) {
 //        int[] arr = {15,14,13,12,10,9,7,6,4,2,1};

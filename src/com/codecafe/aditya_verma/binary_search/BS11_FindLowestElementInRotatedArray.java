@@ -1,6 +1,6 @@
 package com.codecafe.aditya_verma.binary_search;
 
-public class FindLowestElementInRotatedArray {
+public class BS11_FindLowestElementInRotatedArray {
     public static void main(String[] args) {
         int[] arr = {7,1,2,3,4,5,6};
         System.out.println(findLowestElementInRotatedSortedArray(arr));

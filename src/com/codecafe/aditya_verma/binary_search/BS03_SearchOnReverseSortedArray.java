@@ -6,7 +6,7 @@ package com.codecafe.aditya_verma.binary_search;
  * If X is present in the array, print its index ( 0-based indexing).
  * Otherwise, print -1.
  */
-public class SearchOnReverseSortedArray {
+public class BS03_SearchOnReverseSortedArray {
 
     public static void main(String[] args) {
         int[] arr = {15,14,13,12,10,9,7,6,4,2,1};

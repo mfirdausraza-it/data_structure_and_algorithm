@@ -1,6 +1,6 @@
 package com.codecafe.aditya_verma.binary_search;
 
-public class MinDifferenceElementInSortedArray {
+public class BS14_MinDifferenceElementInSortedArray {
 
     /**
      * arr  [1,  4, 6, 10, 14, 18] -- key = 11,

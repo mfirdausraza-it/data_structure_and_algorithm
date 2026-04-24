@@ -1,6 +1,6 @@
 package com.codecafe.aditya_verma.binary_search;
 
-public class FloorAndCeilOfAnElement {
+public class BS13_FloorAndCeilOfAnElement {
 
     // if number is 5.8 -- Floor = 5 and ceil = 6
     //find floor of element -- greatest element less that given element

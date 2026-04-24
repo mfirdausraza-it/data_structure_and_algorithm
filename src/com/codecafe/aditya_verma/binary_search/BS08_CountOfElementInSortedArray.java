@@ -1,7 +1,7 @@
 package com.codecafe.aditya_verma.binary_search;
 
 
-public class CountOfElementInSortedArray {
+public class BS08_CountOfElementInSortedArray {
 
     //Problems : Find the count of given Number in a Sorted Array
 

@@ -1,6 +1,6 @@
 package com.codecafe.aditya_verma.binary_search;
 
-public class PeakElement {
+public class BS17_PeakElement {
 
     // arr = {1,3,6,8,9,10,7,5,3,2} -- answer = 10 or index of 10
     static int peakElement(int[] nums){

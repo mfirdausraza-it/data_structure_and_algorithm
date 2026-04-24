@@ -1,10 +1,9 @@
 package com.codecafe.aditya_verma.stack;
 
 import java.util.Arrays;
-import java.util.PriorityQueue;
 import java.util.Stack;
 
-public class NextGreatestElementToRight {
+public class Stack01_NextGreatestRight {
     /**
      * This a leetcode problems where you would have two arrays
      * <p>
