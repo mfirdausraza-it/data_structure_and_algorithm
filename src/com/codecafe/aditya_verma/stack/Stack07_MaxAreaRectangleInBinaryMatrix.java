@@ -1,9 +1,8 @@
 package com.codecafe.aditya_verma.stack;
 
-import java.util.Arrays;
 import java.util.Stack;
 
-public class Stack08_MaxAreaRectangleInBinaryMatrix {
+public class Stack07_MaxAreaRectangleInBinaryMatrix {
 
     // Driver code to test the maximalRectangle function
     public static void main(String[] args) {
