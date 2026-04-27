@@ -19,7 +19,7 @@ import java.util.Stack;
  * 3. For each bar, calculate area = height * (right_smaller_index - left_smaller_index - 1)
  * 4. Return the maximum area found
  */
-public class Stack07_MaxAreaOfHistogram {
+public class Stack06_MaxAreaOfHistogram {
 
     /**
      * Calculates the maximum area of a rectangle in a histogram.
